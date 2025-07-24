@@ -1,9 +1,0 @@
-node_modules/
-*.log
-.env
-.vscode/
-.idea/
-proyecto-*.json
-package-lock.json
-example/
-tests/
