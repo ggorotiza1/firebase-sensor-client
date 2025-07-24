@@ -1,0 +1,27 @@
+{
+  "name": "firebase-sensor-client",
+  "version": "1.0.0",
+  "description": "Cliente Node.js para enviar y obtener datos desde Firebase Realtime Database, útil para sensores con ESPHome.",
+  "main": "lib/firebaseClient.js",
+  "scripts": {
+    "test": "echo \"Sin pruebas aún\" && exit 0"
+  },
+  "keywords": [
+    "firebase",
+    "realtime-database",
+    "iot",
+    "sensores",
+    "esphome",
+    "energia"
+  ],
+  "author": "Gabriel Gorotiza",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
